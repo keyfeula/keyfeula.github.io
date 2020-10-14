@@ -1,0 +1,181 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Resume</a></li>
+							<li class="active"><a href="generic.html">Portfolio</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/key-feula-51230b19b/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a target="_blank" rel="noopener noreferrer" href="https://github.com/keyfeula" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+							<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										<h2>Android Weather App</h2>
+									</header>
+									
+									<div class="box alt">
+										<div class="row gtr-50 gtr-50">
+											<div class="col-6"><span class="image fit"><img src="images/WeatherHome.PNG" height="350" alt=""/></span></div>
+											<div class="col-6"><span class="image fit"><img src="images/WeatherForecast2.PNG" height="350" alt="" /></span></div>				
+										</div>
+										<p>
+											This is a simple weather app I developed with Java in Android Studio. It allows the user to
+											input a city name and then calls a REST API to get data about the weather for that week. The JSON response is then deserialized,
+											formatted, and output to the
+											user as a 5-day forecast. Depending on the weather conditions returned by the JSON object, 
+											the icon on the right side changes to reflect the weather conditions
+											for that day. A clear day would be denoted by a sun icon, slightly cloudy with a sun behind a cloud icon, overcast with an overlapping clouds icon,
+											and rain with a rain cloud icon.
+										</p>
+									</div>
+									
+									<ul class="actions special">
+										<li><a href="https://github.com/keyfeula/WeatherMobileApp" target="_blank" rel="noopener noreferrer" class="button">See Code</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2>Python Web Scraper</h2>
+									</header>								
+									<div class="box alt">
+										<div class="row gtr-50 gtr-50">
+											<div class="col-12"><span class="image fit"><img src="images/pricescraperoutput.PNG" alt=""/></span></div>			
+										</div>
+									</div>
+									<p>
+										This program is a web scraper I wrote with python using the BeautifulSoup library. Every 8 hours, it will iterate through a list of product
+										URLs (in this case product pages for trading cards) and will send an email for each product that drops 
+										below a certain price, which the program gets from the html on the site. I wrote this program to use with 
+										a group of friends for a trading card game we all play, since the prices for cards tend to fluctuate often, 
+										so it's been really useful in a real life setting. Right now, the program is configured for this specific 
+										trading card site, but it can easily be changed for ecommerce sites such as Amazon and can keep track of basically 
+										any number of different products.
+									</p>
+
+									<ul class="actions special">
+										<li><a href="https://github.com/keyfeula/PriceScraper" target="_blank" rel="noopener noreferrer" class="button">See Code</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2>Dijkstra's Algorithm Project</h2>
+									</header>
+									
+									<div class="box alt">
+										<div class="row gtr-50 gtr-50">
+											<div class="col-12"><span class="image fit"><img src="images/DijkstraPath2.PNG" height="400" alt=""/></span></div>			
+										</div>
+									</div>
+									<p>
+										This is a shortest path program I developed with C++ in Visual Studio. The program takes a text file
+										as input, which contains the number of nodes and edges on the first line and a list of each connecting edge with weight.
+									    The program uses Dijkstra's Algorithm to determine the shortest path between two
+										nodes input by the user. To create the initial map from the text file, the user 
+										types "I" in the command line. The user can type "W" to output the list of nodes and edges with
+										weight. So for example the line "1 : (8, 2);" means there is an edge from node 1 to node 8 with a weight of 2.
+										To see the shortest path between any two nodes, if there is a path, the user
+										inputs "C startNode destinationNode flag". If the flag is 0, the program will output the length
+										of the shortest path. If the flag is 1, the path with node numbers will be shown. Finally, the user
+										can exit the program with the command "E". This project was developed in a data structures and algorithms
+										class I took at ASU, so I have made the github repository private so current students can't use it.
+									</p>
+
+									<ul class="actions special">
+										<li><a href="https://github.com/keyfeula?tab=repositories" target="_blank" rel="noopener noreferrer" class="button">See Code</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2>Midoriya Sushi</h2>
+									</header>
+									
+									<div class="box alt">
+										<div class="row gtr-50 gtr-50">
+											<div class="col-12"><span class="image fit"><img src="images/MidoriyaHome.PNG" height="250" alt=""/></span></div>			
+										</div>
+									</div>
+									<p>
+										This project is a website for a fictional sushi restaurant called Midoriya Sushi. It was made using 
+										HTML5, CSS3, and some JavaScript. It has a home page with sections that give an overview of the restaurant,
+										including pictures of the various types of sushi they serve. The rest of the pages for the navigation tabs
+										haven't been made, aside from the Menu tab which redirects the user to the restaurant menu page. It's hosted
+										on github pages, so you can click the link below to see the site.
+									</p>
+
+									<ul class="actions special">
+										<li><a href="https://keyfeula.github.io/MidoriyaSushi/" target="_blank" rel="noopener noreferrer" class="button">See Website</a></li>
+									</ul>
+								</article>
+								
+							</section>
+					</div>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<section class="split contact">
+						<section>
+							<h3>Phone</h3>
+							<p><a href="#">(602) 471-9285</a></p>
+						</section>
+						<section>
+							<h3>Email</h3>
+							<p><a href="#">keyfeula1214@gmail.com</a></p>
+						</section>
+						<section>
+							<h3>Social</h3>
+							<ul class="icons alt">
+								<li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/key-feula-51230b19b/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<li><a target="_blank" rel="noopener noreferrer" href="https://github.com/keyfeula" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							</ul>
+						</section>
+					</section>
+				</footer>
+				
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
