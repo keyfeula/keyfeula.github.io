@@ -129,7 +129,9 @@
 										start point, end point, and also draw obstacles (walls). They can then start the algorithm by pressing the spacebar and watch
 										as it finds the shortest path between the start and end points, showing each step as it updates the GUI. In the above picture from 
 										the example of the program running, the red point is the start, the orange the end, black the obstacles, blue the closed nodes, green
-										the open nodes, and purple the shortest path that the algorithm found.
+										the open nodes, and purple the shortest path that the algorithm found. The program makes use of the Python PriorityQueue so the A* algorithm
+										can select the nodes with the lowest score, which accounts for distance from the start point and estimated distance (Manhattan distance in this program)
+										to the end point.
 									</p>
 
 									<ul class="actions special">
